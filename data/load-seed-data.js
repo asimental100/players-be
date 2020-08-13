@@ -33,8 +33,6 @@ async function run() {
         [player.name, player.age, player.injured, player.position, user.id]);
       })
     );
-    
-
     console.log('seed data load complete', getEmoji(), getEmoji(), getEmoji());
   }
   catch(err) {
