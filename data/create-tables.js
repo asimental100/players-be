@@ -20,7 +20,9 @@ async function run() {
                 CREATE TABLE players (
                     id SERIAL PRIMARY KEY NOT NULL,
                     name VARCHAR(512) NOT NULL,
-                    cool_factor INTEGER NOT NULL,
+                    age INTEGER NOT NULL,
+                    injured BOOLEAN NOT NULL,
+                    position VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
             );
         `);
