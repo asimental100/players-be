@@ -28,11 +28,13 @@ async function run() {
       players.map(player => {
         return client.query(`
                     INSERT INTO players (name, age, injured, position, owner_id)
-                    VALUES ($1, $2, $3);
+                    VALUES ($1, $2, $3, $4, $5);
                 `,
         [player.name, player.age, player.injured, player.position, user.id]);
       })
     );
+    
+
     console.log('seed data load complete', getEmoji(), getEmoji(), getEmoji());
   }
   catch(err) {

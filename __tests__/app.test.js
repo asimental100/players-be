@@ -24,22 +24,52 @@ describe('app routes', () => {
 
     const expectation = [
       {
-        'id': 1,
-        'name': 'bessie',
-        'coolfactor': 3,
-        'owner_id': 1
+        'name': 'Lionel Messi',
+        'age': 33,
+        'injured': false,
+        'position': 'midfielder'
       },
       {
-        'id': 2,
-        'name': 'jumpy',
-        'coolfactor': 4,
-        'owner_id': 1
+        'name': 'Cristiano Ronaldo',
+        'age': 35,
+        'injured': false,
+        'position': 'attacker'
       },
       {
-        'id': 3,
-        'name': 'spot',
-        'coolfactor': 10,
-        'owner_id': 1
+        'name': 'Neymar',
+        'age': 28,
+        'injured': false,
+        'position': 'attacker'
+      },
+      {
+        'name': 'Jan Oblak',
+        'age': 27,
+        'injured': false,
+        'position': 'keeper'
+      },
+      {
+        'name': 'Sergio Ramos',
+        'age': 34,
+        'injured': false,
+        'position': 'defender'
+      },
+      {
+        'name': 'Romelu Lukaku',
+        'age': 27,
+        'injured': false,
+        'position': 'attacker'
+      },
+      {
+        'name': 'Diego Godin',
+        'age': 34,
+        'injured': true,
+        'position': 'defender'
+      },
+      {
+        'name': 'Kevin de Bruyne',
+        'age': 29,
+        'injured': false,
+        'position': 'midfielder'
       }
     ];
 
